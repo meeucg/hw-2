@@ -14,11 +14,11 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentProfileBinding.bind(view)
 
-        val email = arguments?.getString(ARG_EMAIL) ?: "ERROR"
+        /*val email = arguments?.getString(ARG_EMAIL) ?: "ERROR"
 
         binding?.run {
             tvTitle.text = "${tvTitle.text} + $email"
-        }
+        }*/
     }
 
     override fun onDestroyView() {
@@ -26,7 +26,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         binding = null
     }
 
-    companion object {
+    /*companion object {
 
         private const val ARG_EMAIL = "ARG_EMAIL"
         private const val ARG_AGE = "ARG_AGE"
@@ -35,5 +35,5 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             putString(ARG_EMAIL, email)
             putInt(ARG_AGE, age)
         }
-    }
+    }*/
 }

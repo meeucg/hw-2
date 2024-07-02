@@ -11,7 +11,6 @@ import com.example.hw_2.databinding.ActivityFragmentMainBinding
 class MainFragmentActivity : AppCompatActivity() {
 
     private var binding: ActivityFragmentMainBinding? = null
-
     private var controller: NavController? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {

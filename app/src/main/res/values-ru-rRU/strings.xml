@@ -4,5 +4,9 @@
     <string name="send_button_text">Отправить</string>
     <string name="profile_screen">Профиль</string>
     <string name="main_screen">Главная</string>
+    <string name="main_screen_btn">Нажми меня</string>
     <string name="settings_screen">Настройки</string>
+    <string name="notifications_screen">Уведомления</string>
+    <string name="bird_screen">Птица</string>
+    <string name="any_text">Любой текст</string>
 </resources>

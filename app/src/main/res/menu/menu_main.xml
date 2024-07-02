@@ -19,7 +19,11 @@
     <item
         android:id="@+id/notificationsFragment"
         android:icon="@drawable/baseline_notifications_24"
-        android:title="@string/settings_screen" />
+        android:title="@string/notifications_screen" />
 
+    <item
+        android:id="@+id/birdFragment"
+        android:icon="@drawable/baseline_airplanemode_active_24"
+        android:title="@string/bird_screen" />
 
 </menu>

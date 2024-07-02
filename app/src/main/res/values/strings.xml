@@ -2,6 +2,10 @@
     <string name="app_name">hw-2</string>
     <string name="send_button_text">Send</string>
     <string name="main_screen">Main</string>
+    <string name="main_screen_btn">Press me</string>
     <string name="profile_screen">Profile</string>
     <string name="settings_screen">Settings</string>
+    <string name="notifications_screen">Notifications</string>
+    <string name="bird_screen">Bird</string>
+    <string name="any_text">Any text</string>
 </resources>
