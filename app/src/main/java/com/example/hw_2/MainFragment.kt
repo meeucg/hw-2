@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.hw_2.R
 import com.example.hw_2.databinding.FragmentMainBinding
 import com.google.android.material.snackbar.Snackbar
 
@@ -19,7 +18,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         binding?.run {
             pressMeBtn.setOnClickListener {
 
-                val text = etEmail.text
+                val text = etText.text
 
                 if(text?.isEmpty() != true)
                 {

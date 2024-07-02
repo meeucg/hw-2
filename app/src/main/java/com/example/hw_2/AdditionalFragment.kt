@@ -3,7 +3,6 @@ package com.example.hw_2
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import com.example.hw_2.R
 import com.example.hw_2.databinding.FragmentAdditionalBinding
 
 class AdditionalFragment : Fragment(R.layout.fragment_additional) {
@@ -32,11 +31,9 @@ class AdditionalFragment : Fragment(R.layout.fragment_additional) {
 
         private const val ARG_TEXT = "ARG_TEXT"
 
-        fun bundle(text: String): Bundle
+        fun bundle(text: String): Bundle = Bundle().apply()
         {
-            val bundle = Bundle()
-            bundle.putString(ARG_TEXT, text)
-            return bundle
+            putString(ARG_TEXT, text)
         }
     }
 }

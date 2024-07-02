@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.hw_2.R
 import com.example.hw_2.databinding.ActivityFragmentMainBinding
 
 class MainFragmentActivity : AppCompatActivity() {
@@ -29,7 +28,6 @@ class MainFragmentActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-
         controller?.navigateUp()
     }
 
