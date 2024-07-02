@@ -3,6 +3,7 @@ package com.example.hw_2
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.hw_2.databinding.FragmentAdditionalBinding
 
 class AdditionalFragment : Fragment(R.layout.fragment_additional) {
@@ -19,6 +20,11 @@ class AdditionalFragment : Fragment(R.layout.fragment_additional) {
         binding?.apply()
         {
             tvTitle.text = textFromMain
+
+            backBtn.setOnClickListener()
+            {
+                findNavController().navigate(R.id.action_additionalFragment_to_mainFragment)
+            }
         }
     }
 

@@ -7,6 +7,7 @@
     <string name="main_screen_btn">Нажми меня</string>
     <string name="settings_screen">Настройки</string>
     <string name="notifications_screen">Уведомления</string>
-    <string name="bird_screen">Птица</string>
+    <string name="bird_screen">Государственные дроны</string>
     <string name="any_text">Любой текст</string>
+    <string name="back">Назад</string>
 </resources>

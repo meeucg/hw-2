@@ -6,6 +6,7 @@
     <string name="profile_screen">Profile</string>
     <string name="settings_screen">Settings</string>
     <string name="notifications_screen">Notifications</string>
-    <string name="bird_screen">Bird</string>
+    <string name="bird_screen">Government drones</string>
     <string name="any_text">Any text</string>
+    <string name="back">Back</string>
 </resources>

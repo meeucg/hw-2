@@ -62,6 +62,9 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_birdFragment_to_birdProfileFragment"
+            app:destination="@id/birdProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/notificationsFragment"
@@ -79,5 +82,25 @@
     <fragment
         android:id="@+id/additionalFragment"
         android:name="com.example.hw_2.AdditionalFragment"
-        android:label="AdditionalFragment" />
+        android:label="AdditionalFragment" >
+        <action
+            android:id="@+id/action_additionalFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/birdProfileFragment"
+        android:name="com.example.hw_2.birdClasses.BirdProfileFragment"
+        android:label="BirdProfileFragment" >
+        <action
+            android:id="@+id/action_birdProfileFragment_to_birdFragment"
+            app:destination="@id/birdFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 </navigation>
