@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw-2</string>
+    <string name="send_button_text">Send</string>
+    <string name="main_screen">Main</string>
+    <string name="profile_screen">Profile</string>
+    <string name="settings_screen">Settings</string>
+</resources>
